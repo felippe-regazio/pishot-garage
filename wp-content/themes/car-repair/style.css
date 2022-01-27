@@ -1,0 +1,239 @@
+/*
+Theme Name: Car Repair
+Template: automobile-hub
+Text Domain: car-repair
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-car-repair-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Car Repair is a modern yet elegant, professional and sophisticated, stunning and luxurious WordPress theme. It is suitable for car listing and auto listing for respective sellers and dealers, car dealership, travel trailer, Forklift, Lift Trucks, Agriculture Equipment, Aircrafts, motorcycles, Car Tracker Installation, Auto Electrical Workshop, car repair shops, garages, car rental, car washing, food truck, auto parts store, vehicle maintenance and such websites. The theme is SEO-friendly that will assist your website to rank quickly on major search engines like Google. It is especially designed to completely satisfy the need of all auto business services. It supports RTL layout and can be translated into many languages. The codes used are optimized as well as secure and clean. It offers many customization and personalization options so you create it as you want. You can add shortcodes if you want to add more functionality to the website. The base of the theme is on bootstrap framework. It loads faster as it is optimized for speed. The social media option let’s you integrate all your social media pages to the site. The responsive layout fits well in all devices screen sizes. Car listing is indeed a great option to create an advance website with so many options for customization.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, rtl-language-support, blog, e-commerce, photography
+Version: 0.2.3
+Tested up to: 5.8
+Requires PHP: 5.6
+*/
+
+p{
+    letter-spacing: unset;
+}
+
+.center{
+	border-color: #bbb;
+}
+
+/* color 1 */
+
+a,.search-box i,.main-navigation a:hover,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,a.page-numbers:hover,#theme-sidebar h3,#theme-sidebar a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,.headerbox i:hover, .headerbox i:hover:after,#about h3,#about p i{
+    color: #2aca4e;
+}
+
+#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar .tagcloud a:hover,span.meta-nav,#comments input[type="submit"],#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,button[type="submit"],.headerbox,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: #2aca4e; 
+}
+
+.main-navigation a,.logo p, body, .more-btn i,.page-box p,.box-info span,#theme-sidebar a,#theme-sidebar li{
+    color: #736f66;
+}
+
+#theme-sidebar button[type="submit"], #footer button[type="submit"],#theme-sidebar button[type="submit"], #footer button[type="submit"], .prev.page-numbers, .next.page-numbers, .page-numbers, #theme-sidebar .tagcloud a:hover, span.meta-nav, #comments input[type="submit"],#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+    color: #212121;
+}
+#theme-sidebar button[type="submit"]:hover,#comments input[type="submit"]:hover,span.meta-nav:hover{
+    color: #2aca4e;
+    background: #212121;
+}
+
+a.page-numbers:hover{
+    background: #212121;
+}
+
+a:hover{
+    color: #309d44;
+}
+
+#footer .tagcloud a:hover,.search_inner form.search-form{
+    border-color: #2aca4e;
+}
+
+/* topbar */
+
+.logo h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* header */
+
+.search-box i{
+    border: none;
+}
+.search-box {
+    text-align: right;
+}
+button.search_btn i{
+    font-size: 20px;
+}
+.social-media i{
+    font-size: 14px;
+}
+span.cart-value.simplep {
+    background: #2aca4e;
+    font-size: 12px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #212121;
+    font-weight: bold;
+    position: relative;
+    left: -6px;
+    top: -12px;
+}
+#mySidenav {
+    text-align: right;
+    display: block;
+}
+.menubar {
+    border: none;
+    padding: 12px 0;
+    border-bottom: solid 1px #ddd;
+}
+.page-template-front-page .menubar{
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    border-bottom: solid 1px #fff;
+}
+
+.main-navigation li,.main-navigation li:last-child{
+    border: none;
+}
+.headerbox i, .more-btn i {
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+}
+.headerbox i:after{
+    content: none;
+}
+.social-media{
+    padding: 0;
+    text-align: right;
+}
+.headerbox p,.search-box i{
+    font-size: 14px;
+    padding: 0;
+}
+.headerbox p {
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+.headerbox span {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+.main-navigation a{
+    font-size: 13px;
+    font-weight: normal;
+}
+.page-template-front-page .main-navigation a,.page-template-front-page .logo p{
+    color: #fff;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #333;
+    padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.more-btn a {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    background: #2aca4e;
+}
+.more-btn a:hover{
+    background: #151515;
+    color: #fff;
+}
+.more-btn i {
+    display: none;
+}
+#slider .carousel-caption {
+    right: 55%;
+}
+#slider .inner_carousel h2,.woocommerce ul.products li.product .button, a.checkout-button.button.alt.wc-forward,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.page-box h4 a {
+    font-weight: 600;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.products li {
+    border: none;
+    padding: 0 !important;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background: transparent;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: solid 2px #999;
+    color: #999;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    border-color: #2aca4e;
+}
+.woocommerce ul.products li.product .onsale {
+    top: 15px;
+    right: auto;
+    left: 15px;
+}
+.woocommerce .quantity .qty {
+    padding: 12px;
+    border-radius: 30px;
+    border: solid 2px #999;
+    color: #999;
+}
+.center1 .ring::before {
+    background: #2aca4e;
+}
+.center2 .ring::before {
+    background: #151515;
+}
+
+@media screen and (max-width: 767px){
+    .innermenubox{
+        padding: 0;
+    }
+    .logo,.social-media,.more-btn,.topbarbox {
+        text-align: center;
+    }
+    .search-box{
+        text-align: left;
+    }
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+        padding: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #slider .carousel-caption {
+        right: 15%;
+        left: 15%;
+        bottom: auto;
+        padding: 0;
+    }
+}
