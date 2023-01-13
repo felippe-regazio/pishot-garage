@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+  padding-top: 100px;
+
+  @media screen and (max-width: 600px) {
+    padding-top: 20px;
+  }
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+}
+
+mark {
+  color: #fff;
+  background-color: #000000;
+  padding: 0 4px;
+}
+
+section {
+  margin-bottom: 60px;
+  
+  h2 {
+    margin: 0;
+    font-size: 5rem;
+    
+    span {
+      display: block;
+    }
+
+    mark {
+      padding: 4px 24px;
+    }
+
+    @media screen and (max-width: 760px) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }  
+
+  .featured {
+    max-width: 600px;
+    padding-top: 52px;
+
+    @media screen and (max-width: 600px) {
+      padding-top: 20px;
+    }  
+  }  
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
+}

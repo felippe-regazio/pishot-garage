@@ -1,0 +1,48 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, .6);
+  
+  @media screen and (max-width: 600px) {
+    position: sticky;
+    top: -80px;  
+  }
+
+  &__content {
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    h1, p {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
+      padding: 8px 16px;
+    }
+    
+    h1 {
+      border: dashed 2px #000;
+    }
+    
+    p {
+      background-color: #000;
+      color: #fff;
+    }
+
+    @media screen and (max-width: 600px) {
+      display: block;
+
+      > div:not(:last-of-type) {
+        margin-bottom: 16px;
+      }
+
+      h1, p {
+        padding: 16px;
+      }
+    }
+  }
+}

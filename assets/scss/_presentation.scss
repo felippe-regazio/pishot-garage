@@ -1,0 +1,22 @@
+.presentation {
+  position: relative;
+
+  .presentation__background {
+    position: absolute;
+    top: 0;
+    left: -20vw;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: .1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+      display: block;
+      object-position: right;
+    }
+  }
+}
