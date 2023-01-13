@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel ./index.html --dist-dir docs",
-    "build": "parcel build ./index.html --dist-dir docs"
+    "build": "parcel build ./index.html --dist-dir docs && cp assets/img/garage-1.jpeg docs"
   },
   "keywords": [],
   "author": "",
